@@ -2,7 +2,7 @@
 
 An iOS application to follow the **English Premier League**. Browse teams, check the standings table, and save your favourite teams with personal notes and ratings.
 
-Built as a course project at CESAE Digital, using SwiftUI with MVVM architecture.
+Built with SwiftUI and MVVM architecture.
 
 ---
 
@@ -56,11 +56,5 @@ Built as a course project at CESAE Digital, using SwiftUI with MVVM architecture
 
 - The API token is hardcoded in `APIHandler.swift` — in a production environment it should be managed securely (e.g. `.xcconfig` or Keychain)
 - The app is limited to the Premier League (code `PL`); the API supports other competitions
-- Variable and view names are written in Portuguese, following the course project convention
+- Variable and view names are written in Portuguese
 - First iOS project using SwiftUI and SwiftData
-
----
-
-## 🎓 Academic Context
-
-Project developed as part of a programming course at **CESAE Digital**, as an introduction to native iOS development with SwiftUI.
